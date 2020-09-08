@@ -4,7 +4,7 @@
 %This script requires files containing the functions Gauss_elim, backsub, and Jacobi.  
 
 
-%% Illustrate the number of operations needed to implement Cramer's rule
+%% Illustrate the number of operations needed to implement Cramer's rule...
 n=1:10;
 nops=(n-1).*factorial(n+1)+n;      %see book for discussion
 figure(1);
